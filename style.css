@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "MedievalSharp", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0D0B0E;
+    padding-bottom: 50px;
+    background-color: #1A1613;
+    padding: 15px 5%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.links ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #A096A6;
+    font-size: 24px;
+}
