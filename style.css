@@ -91,6 +91,8 @@ h1 {
     flex: 1;
     height: auto;
     max-width: 500px;
+    border: #D4AF37 solid 1px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -191,7 +193,7 @@ h2 {
 }
 
 .CTA-button {
-    border: solid 1px #D4AF37;
+    border: solid 0px #D4AF37;
     padding: 9px 36px;
     color: #F4EFEA;
     background-color: #9E2A2B;
